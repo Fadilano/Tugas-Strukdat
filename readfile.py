@@ -9,9 +9,9 @@ readkelas = fkelas.readlines()
 readjurusan = fjurusan.readlines()
 
 print("""
-+--------------------+-------------------------------+----------------------+
-| NAMA               | NPM               |KELAS              |JURUSAN        |
-+--------------------+-------------------------------------------------+-------------+""")
++--------------------+-----------------+-----------+---------------+
+| NAMA               | NPM             |KELAS      |JURUSAN        |
++--------------------+-----------------+-----------+---------------+""")
 
 for i in range (len(readnama)):
     nama = str(readnama[i].strip())
@@ -20,17 +20,17 @@ for i in range (len(readnama)):
         print(' ',end ='')
     npm = str(readnpm[i].strip())
     print('| '+npm,end='')
-    for k in range(19-1-len(npm)):
+    for k in range(17-1-len(npm)):
          print(' ',end ='')
     kelas = str(readkelas[i].strip())
     print('| '+kelas,end='')
-    for p in range(19-1-len(kelas)):
+    for p in range(11-1-len(kelas)):
          print(' ',end ='')
     jurusan = str(readjurusan[i].strip())
     print('| '+jurusan,end='')
-    for v in range(19-1-len(jurusan)):
+    for v in range(15-1-len(jurusan)):
          print(' ',end ='')
     
     print('|')
 
-print("+--------------------+-------------------------------------------------------+")
+print("+--------------------+-----------------+-----------+---------------+")
