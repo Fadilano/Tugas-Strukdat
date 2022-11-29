@@ -7,8 +7,7 @@ readnpm = fnpm.readlines()
 print("""
 +--------------------+-------------------+
 | NAMA               | NPM               |
-+--------------------+-------------------+
-""")
++--------------------+-------------------+""")
 
 for i in range (len(readnama)):
     nama = str(readnama[i].strip())
