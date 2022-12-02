@@ -29,6 +29,13 @@ for i in range(jml_data):
     kelas.append(kls)
     jurusan.append(jrsn)
     
+"""
+Dibawah ini merupakan proses pembuatan file .txt nama, npm, kelas, dan jurusan 
+dengan menggunakan operasi "w"
+sekaligus memasukan nilai atau data dari list nama, npm, kelas , dan jurusan kedalam
+file txt tersebut sesuai dengan namanya menggunakan perulangan for.
+lalu file akan ditutup dengan menggunakan .close()
+""" 
 with open('nama.txt', 'w') as fnama:
     for line in nama:
         fnama.write(f"{line}\n")
