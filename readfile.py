@@ -12,7 +12,7 @@ readnama = fnama.readlines()
 readnpm = fnpm.readlines()
 readkelas = fkelas.readlines()
 readjurusan = fjurusan.readlines()
-#Line 6-9 ini fungsinya sebagai membaca file txt nya berupa string
+#Line 11-14 ini fungsinya sebagai membaca file txt nya berupa string
 print("""
 +--------------------+-----------------+-----------+---------------+
 | NAMA               | NPM             |KELAS      |JURUSAN        |
