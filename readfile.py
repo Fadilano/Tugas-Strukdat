@@ -1,3 +1,8 @@
+"""
+dibawah ini terdapat proses inisialisasi pembacaan file kedalam variabel lain
+sebagai contoh fnama berisi data-data dari file nama.txt yang telah dibaca
+dengan fungsi "r"
+"""
 fnama = open("nama.txt", "r")
 fnpm = open("npm.txt", "r")
 fkelas = open("kelas.txt", "r")
